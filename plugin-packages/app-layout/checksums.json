@@ -1,0 +1,13 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "main.js": "e5581773773afba532534ada45b62d63edf76bb79c1da6f99074c5dee7b9c7a0",
+    "manifest.json": "21478e20ecf43c42bfaa323e790cad8dfa0f6d6365d2b3e51d3a159f930995b9",
+    "ui/app.js": "c796e358e49c9a780442f2dd61cc1cb1c94d456ad4c82b95868d5d22764404ee",
+    "ui/index.html": "e85804ebc6ceac0d4e7de790902d1551092f872d286d2779c5254011e07a85c3",
+    "ui/layout-rules.js": "3bb9203c332046c8550ed6be0593c149094d4da73802913c9c3fea92e978ae8a",
+    "ui/material-icons.js": "bd05a0feb4d557ae58427d80c701ed4a1a4e121520240451be4414f14fb94421",
+    "ui/material-icons.LICENSE.txt": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "ui/style.css": "94f3efcdf9728eee2eb2657c74d424e67f16bc7dd107d4588fef425fde36090b"
+  }
+}

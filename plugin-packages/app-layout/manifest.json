@@ -1,0 +1,38 @@
+{
+  "id": "app-layout",
+  "kind": "extension",
+  "name": "布局",
+  "publisher": "cursimple",
+  "version": "1.0.0",
+  "versionCode": 1,
+  "apiVersion": 12,
+  "entry": "main.js",
+  "description": "把课简的导航从侧边栏换成底边栏，自选底栏入口和顺序，随时换回侧边栏。",
+  "permissions": [],
+  "allowedHosts": [
+    "cursimple-extension.invalid"
+  ],
+  "extension": {
+    "title": "布局",
+    "loginUrl": "https://cursimple-extension.invalid/",
+    "runUrl": "https://cursimple-extension.invalid/",
+    "ui": {
+      "entry": "ui/index.html",
+      "settingsEntry": "ui/index.html",
+      "type": "html"
+    },
+    "layouts": [
+      {
+        "id": "bottom-bar",
+        "title": "底边栏",
+        "shell": "bottomBar"
+      }
+    ]
+  },
+  "limits": {
+    "timeoutMs": 10000,
+    "maxOutputBytes": 65536
+  },
+  "homepage": "https://github.com/cursimple/cursimple-layout-component",
+  "minHostVersion": "0.7.11"
+}
